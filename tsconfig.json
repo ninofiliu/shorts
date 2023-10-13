@@ -1,7 +1,9 @@
 {
-  "include": ["src"],
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./src/**/*.test.ts"],
   "compilerOptions": {
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "target": "ESNext"
   }
 }
