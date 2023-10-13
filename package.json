@@ -1,0 +1,7 @@
+{
+  "name": "shorts",
+  "version": "0.0.0",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}
