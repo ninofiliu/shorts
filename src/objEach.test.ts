@@ -1,4 +1,5 @@
-import { test, vi, expect } from "vitest";
+import { expect, test, vi } from "vitest";
+
 import { objEach } from "./objEach.js";
 
 test("iterates", () => {
